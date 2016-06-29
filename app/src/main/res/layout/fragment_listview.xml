@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/_fragmentImage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/picture"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#efefef"
+            android:transitionName="target2"
+            android:layout_margin="6dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/nickname"
+                android:id="@+id/_fragmentNickanme"
+                android:textSize="8pt"
+                android:layout_margin="4dp"
+                android:layout_gravity="top"
+                android:textColor="#282828"
+                android:typeface="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/string_small_text"
+                android:id="@+id/_fragmentDescription"
+                android:textSize="6pt"
+                android:gravity="bottom"
+                android:layout_margin="4dp"
+                android:typeface="normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

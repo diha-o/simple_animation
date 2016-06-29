@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">fragment_animation</string>
+    <string name="string_large_text">Provides classes used to render or track text and text spans on the screen.
+
+You can use these classes to design your own widgets that manage text, to handle arbitrary text spans for changes, or to handle drawing yourself for an existing widget.
+
+The Span… interfaces and classes are used to create or manage spans of text in a View item.</string>
+
+       <string name="string_small_text">You can use these classes to design your own widgets that manage text…</string>
+
+    <string name="nickname">Nickname</string>
+
+</resources>

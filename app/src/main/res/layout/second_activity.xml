@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e0e0e0">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:civ_border_width="0dp"
+            app:civ_border_color="#e0e0e0"
+            android:id="@+id/image_target"
+            android:layout_gravity="center_horizontal"
+            android:transitionName="target2"
+            android:src="@drawable/picture"
+            android:layout_margin="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ali Abu Dabi"
+            android:id="@+id/nickname_second_activity"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#232323"
+            android:textStyle="bold"
+            android:layout_margin="8dp" />
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="35dp"
+            android:id="@+id/followImage"
+            android:layout_gravity="center_horizontal"
+            android:state_focused="true"
+            android:clickable="true"
+            android:background="@drawable/f1"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/string_large_text"
+            android:id="@+id/second_activity_largetext"
+            android:textColor="#414141"
+            android:layout_margin="8dp"
+            android:textSize="7pt" />
+    </LinearLayout>
+
+
+</LinearLayout>
